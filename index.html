@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KnowledgeVault</title>
+    <title>My First Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
     <nav class="navbar">
         <div class="container navbar-container">
             <div class="logo">
-                <img src="assets/logo-navbar.png" alt="KnowledgeVault">
+                <img src="./assets/logo-navbar.png" alt="Knowledge Vault Logo" class="logo-img">
             </div>
 
             <ul class="menu-items">
@@ -25,11 +23,31 @@
                 <li><a href="#">Why It's Different</a></li>
             </ul>
 
-            <div class="nav-btn">
-                <button class="btn-primary">Get Early Access</button>
+            <div class="nav-button">
+                <a href="#" class="btn btn-primary btn-with-icon">
+                    Get Early Access
+                </a>
             </div>
         </div>
     </nav>
 
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content text-center">
+                <div class="early-access-tag">
+                    <i class="fa-solid fa-circle" style="font-size: 8px; margin-right: 8px; color: #10B981;"></i> 
+                    Early Access Now Open
+                </div>
+                <h1>Structured Thinking,<br> <span>Not Just Note-Taking.</span></h1>
+                <p class="hero-subtitle">A private space to store notes, links, and learning summaries - designed to help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Start Building Your Vault <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
+                    <a href="#" class="btn btn-secondary"><i class="fa-solid fa-play" style="margin-right: 8px; font-size: 0.8rem;"></i> See How It Works</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
 </html>
