@@ -367,7 +367,7 @@ body {
     height: 20px;
 }
 
-early-access {
+.early-access {
     padding: 80px 0;
     background-color: #F7F6F2;
     text-align: center;
@@ -455,4 +455,32 @@ early-access {
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
+}
+
+@media (max-width: 992px) {
+    .menu-items {
+        gap: 25px;
+    }
+    
+    .notes-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .second-brain-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .hero h1 {
+        font-size: 40px;
+    }
+    
+    .section-title {
+        font-size: 32px;
+    }
+    
+    .brain-content h2 {
+        font-size: 28px;
+    }
 }
